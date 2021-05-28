@@ -7,7 +7,7 @@ import time
 import png
 #helps in png
 
-token = "1830434895:AAHnwQ0mUKYVQbaBYgz6Tug5OTtSYE20Zn4"
+token = " YOUR BOT TOKEN "
 bot=telebot.TeleBot(token ,parse_mode=None)
 
 @bot.message_handler(commands=['start'])
